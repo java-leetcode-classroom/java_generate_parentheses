@@ -72,7 +72,7 @@ public class Solution {
       return List.of("()");
     }
     List<String> ans = new ArrayList<>();
-    StringBuffer sb = new StringBuffer("");
+    StringBuffer sb = new StringBuffer();
     backTrack(ans, sb, 0,0, n);
     return ans;
   }
